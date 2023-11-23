@@ -1,6 +1,6 @@
 class App {
     constructor() {
-        // Class variabelen
+
         this.classBoolean = true;
         this.classString = "Hello, class!";
         this.classNumber = 42;
@@ -9,7 +9,7 @@ class App {
     runApplication() {
         console.log("hoi school!");
 
-        // Local variabelen
+    
         let localBoolean = true;
         let localString = "Hello, local!";
         let localNumber = 123;
@@ -18,7 +18,7 @@ class App {
         console.log("Local string:", localString);
         console.log("Local number:", localNumber);
 
-        // Class variabelen
+        
         console.log("Class boolean:", this.classBoolean);
         console.log("Class string:", this.classString);
         console.log("Class number:", this.classNumber);
