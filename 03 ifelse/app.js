@@ -24,10 +24,6 @@ class App {
         newsitem1.style.backgroundColor = '#FFA500';
         newsitem2.style.backgroundColor = '#008080';  
 
-
-
-
-    
     }
 }
 
