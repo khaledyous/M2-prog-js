@@ -1,3 +1,33 @@
+class App
+{
+    runApplication()
+    {
+        console.log("Hello world");
+        superMooieGlobalFunctions()
+    }
+
+    newClassFunction()
+{
+    console.log("hello world in de nieuwClassfunction");
+}
+
+    anotherFunctionWithArguments(aArgument)
+    {
+        console.log("kom maar met je argument");
+        console.log("hier:");
+        console.log(aArgument);
+    }
+
+
+
+
+
+}
+
+
+
+
+
 function heeftEenResultaat()
 {
     let resultaat =1;
@@ -45,10 +75,6 @@ console.log(logYTest)
 
 
 
-
-
-
-
 function argumentAreHandy(shoutout)
 {
     console.log("do you want to give my a shoutout?");
@@ -71,19 +97,6 @@ superMooieGlobalFunctions()
 
 
 
-
-
-
-
-class App
-{
-    runApplication()
-    {
-        console.log("Hello world");
-        superMooieGlobalFunctions()
-    }
-    
-}
-
 let app = new App();
-app.runApplication();
+app.newClassFunction();
+app.anotherFunctionWithArguments('mijn argument is een test')
